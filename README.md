@@ -1,4 +1,4 @@
-# adhd-tutor
+# adhd-dog-tutor-skill
 
 一个给 Claude 用的 Agent Skill:把试卷、习题、课件案例和论文变成"被人带着走一遍"的过程,而不是被讲解一遍。
 
@@ -46,21 +46,21 @@ session 结束时会问你要不要把走过的内容整理成 md 文件。写�
 
 ## 安装
 
-Skill 的目录结构就是 `adhd-tutor/SKILL.md`,符合 [Agent Skills 开放标准](https://agentskills.io),所以在支持这个标准的 agent 里都能用。
+Skill 的目录结构就是 `adhd-dog-tutor-skill/SKILL.md`,符合 [Agent Skills 开放标准](https://agentskills.io),所以在支持这个标准的 agent 里都能用。
 
 **Claude.ai / Claude 桌面端**
 
-需要 Pro、Max、Team 或 Enterprise 方案,并开启 code execution。下载本仓库的 `adhd-tutor.skill`(或把 `adhd-tutor/` 目录压成 zip),然后 Settings → Features → 上传。上传后在该账号的所有对话里都可用。
+需要 Pro、Max、Team 或 Enterprise 方案,并开启 code execution。下载本仓库的 `adhd-dog-tutor-skill.skill`(或把 `adhd-dog-tutor-skill/` 目录压成 zip),然后 Settings → Features → 上传。上传后在该账号的所有对话里都可用。
 
 **Claude Code**
 
 ```bash
-git clone https://github.com/YOUR-NAME/adhd-tutor.git
-cp -r adhd-tutor/adhd-tutor ~/.claude/skills/        # 个人
-# 或 cp -r adhd-tutor/adhd-tutor .claude/skills/     # 只在当前项目
+git clone https://github.com/YOUR-NAME/adhd-dog-tutor-skill.git
+cp -r adhd-dog-tutor-skill ~/.claude/skills/        # 个人
+# 或 cp -r adhd-dog-tutor-skill .claude/skills/     # 只在当前项目
 ```
 
-装好后可以直接 `/adhd-tutor` 调用,或者上传材料让它自动触发。
+装好后可以直接 `/adhd-dog-tutor-skill` 调用,或者上传材料让它自动触发。
 
 **其他 agent**
 
