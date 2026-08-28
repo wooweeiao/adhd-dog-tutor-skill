@@ -1,0 +1,10 @@
+{
+  "name": "adhd-dog-tutor-skill",
+  "description": "以动手为入口的苏格拉底式辅导:遮住结论,带着你一步步走完推理,理论从你自己得出的结论里长出来。",
+  "version": "0.1.0",
+  "author": {
+    "name": "wooweeiao"
+  },
+  "license": "MIT",
+  "keywords": ["tutoring", "socratic", "adhd", "learning", "education"]
+}
