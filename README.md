@@ -99,4 +99,4 @@ skill 本体是 `skills/adhd-dog-tutor-skill/SKILL.md`,符合 [Agent Skills 开�
 
 ## License
 
-MIT。随便改、随便分发。如果你改出了更好的版本,欢迎开 issue 说一声。
+MIT
