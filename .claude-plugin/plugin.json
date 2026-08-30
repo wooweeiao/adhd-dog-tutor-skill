@@ -6,5 +6,13 @@
     "name": "wooweeiao"
   },
   "license": "MIT",
-  "keywords": ["tutoring", "socratic", "adhd", "learning", "education"]
+  "keywords": [
+    "tutoring",
+    "socratic",
+    "adhd",
+    "learning",
+    "education"
+  ],
+  "homepage": "https://github.com/wooweeiao/adhd-dog-tutor-skill",
+  "repository": "https://github.com/wooweeiao/adhd-dog-tutor-skill"
 }

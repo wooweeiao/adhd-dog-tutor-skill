@@ -47,7 +47,7 @@ session 结束时会问你要不要把走过的内容整理成 md 文件。写�
 **Claude Code(推荐)**
 
 ```bash
-/plugin marketplace add YOUR-NAME/adhd-dog-tutor-skill
+/plugin marketplace add wooweeiao/adhd-dog-tutor-skill
 /plugin install adhd-dog-tutor-skill@wooweeiao-skills
 ```
 
@@ -58,7 +58,7 @@ session 结束时会问你要不要把走过的内容整理成 md 文件。写�
 不想走 plugin 就直接拷 skill 目录:
 
 ```bash
-git clone https://github.com/YOUR-NAME/adhd-dog-tutor-skill.git
+git clone https://github.com/wooweeiao/adhd-dog-tutor-skill.git
 cp -r adhd-dog-tutor-skill/skills/adhd-dog-tutor-skill ~/.claude/skills/        # 个人
 # 或 cp -r adhd-dog-tutor-skill/skills/adhd-dog-tutor-skill .claude/skills/     # 只在当前项目
 ```
